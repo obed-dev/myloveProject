@@ -50,10 +50,11 @@ myloveProject/
 ├── public/
 │   ├── index.html           # Main HTML structure
 └── package.json             # Project configuration and dependencies
-Contributing
+
+## Contributing
 If you'd like to contribute to this project, please fork the repository and submit your changes via a pull request. Make sure your changes are well-tested.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 

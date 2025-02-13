@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Contenedor principal */
+.body, 
+.container_question1, 
+.container__question2, 
+.container__question3, 
+.answers {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 90%;
+  width: 400px;
+  margin: auto;
+}
+
+h1 {
+  color: #d147a3;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Botones */
+button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #d147a3;
+}
+
+/* Inputs */
+input {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 2px solid #ff66b2;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Media queries para mejorar en móviles */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}

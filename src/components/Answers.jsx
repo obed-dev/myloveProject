@@ -15,7 +15,7 @@ export const Answers = () => {
       date: "2024-09-21",  
       text: "concierto my chemical romance", 
     },
-    question2: "2025-01-14", 
+    question2: "2025-01-21", 
     question3: "menos de un mes" 
   };
 
